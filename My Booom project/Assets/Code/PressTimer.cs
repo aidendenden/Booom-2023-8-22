@@ -21,17 +21,38 @@ public class PressTimer : MonoBehaviour
                 float pressDuration = Time.time - pressStartTime;
                 if (pressDuration >= requiredPressDuration)
                 {
-                    // 执行按压成功的操作
-                    Debug.Log("Press duration: " + pressDuration);
+                   
+                    Debug.Log("按压持续时间: " + FormatTime(pressDuration));
                 }
                 else
                 {
-                    // 执行按压时间不足的操作
-                    Debug.Log("Press duration not met: " + pressDuration);
+                    Debug.Log("未满足需要的按压持续时间: " + FormatTime(pressDuration));
                 }
             }
 
             isPressing = false;
         }
+
+        if (isPressing)
+        {
+            float pressDuration = Time.time - pressStartTime;
+            if (pressDuration >= requiredPressDuration)
+            {
+                Debug.Log("已完成按压，但仍然在按压...");
+            }
+            else
+            {
+                var _time = FormatTime(pressStartTime - pressDuration);
+                Debug.Log($"按压剩余时间{_time}");
+            }
+        }
+    }
+    
+    private string FormatTime(float timeInSeconds)
+    {
+        int minutes = Mathf.FloorToInt(timeInSeconds / 60f);
+        int seconds = Mathf.FloorToInt(timeInSeconds % 60f);
+
+        return $"{minutes:00}:{seconds:00}";
     }
 }
