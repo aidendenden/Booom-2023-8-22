@@ -33,5 +33,15 @@ public class PressTimer : MonoBehaviour
 
             isPressing = false;
         }
+
+        if (isPressing)
+        {
+            float pressDuration = Time.time - pressStartTime;
+            if (pressDuration >= requiredPressDuration)
+            {
+                // 正在按压
+                Debug.Log("Press in progress...");
+            }
+        }
     }
 }
