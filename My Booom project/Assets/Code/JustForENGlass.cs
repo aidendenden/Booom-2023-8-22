@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ForTriggerHand : MonoBehaviour
+public class JustForENGlass : MonoBehaviour
 {
     public Animator animator;
     public AudioSource audioSource;
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "playerHand"|| collision.gameObject.tag == "playerGalss"&&gameObject.tag=="enHand")
+        if (collision.gameObject.tag == "playerGalss")
         {
-             gameObject.GetComponent<Animator>().SetTrigger("Jump");
+           
             animator.SetTrigger("Change");
             audioSource.PlayOneShot(audioSource.clip);
             Debug.Log("aa");
