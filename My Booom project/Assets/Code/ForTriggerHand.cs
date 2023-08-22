@@ -10,9 +10,10 @@ public class ForTriggerHand : MonoBehaviour
     {
         if (collision.gameObject.tag == "playerHand")
         {
+             gameObject.GetComponent<Animator>().SetTrigger("Jump");
             animator.SetTrigger("Change");
             Debug.Log("aa");
         }
-        Debug.Log("aaaa");
+        Debug.Log(collision.gameObject.tag);
     }
 }
