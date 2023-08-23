@@ -792,7 +792,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3176658689192363521, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: toScence
-      value: LoadingScene
+      value: TiteScene
       objectReference: {fileID: 0}
     - target: {fileID: 6482026186663222502, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_Name
@@ -1097,7 +1097,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 519420031}
   needMoveImage: {fileID: 1227042783}
-  needMoveUI: 1
 --- !u!1 &880066158
 GameObject:
   m_ObjectHideFlags: 0
