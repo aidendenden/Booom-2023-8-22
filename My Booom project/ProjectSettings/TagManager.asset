@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - playerHand
-  - playerGalss
   - enHand
+  - playerGalss
   layers:
   - Default
   - TransparentFX
@@ -15,7 +15,7 @@ TagManager:
   - Water
   - UI
   - playerHand
-  - playerGalss
+  - obstacle
   - 
   - 
   - 
