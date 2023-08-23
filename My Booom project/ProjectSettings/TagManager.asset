@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - playerHand
-  - playerGalss
   - enHand
+  - playerGalss
   - mineA
   layers:
   - Default
@@ -16,7 +16,7 @@ TagManager:
   - Water
   - UI
   - playerHand
-  - playerGalss
+  - obstacle
   - 
   - 
   - 
