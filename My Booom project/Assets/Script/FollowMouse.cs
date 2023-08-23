@@ -5,30 +5,16 @@ using UnityEngine.Serialization;
 
 public class FollowMouse : MonoBehaviour
 {
-    // public RectTransform wantToMoveUI;
-    // public Canvas parentCanvas;
-
     public Camera _camera;
     public GameObject needMoveImage;
     
-    public bool needMoveUI=true;
-    
-    // Start is called before the first frame update
     void Start()
     {
         Cursor.visible = false;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        // if (needMoveUI)
-        // {
-        //     Vector2 mousePosition;
-        //     RectTransformUtility.ScreenPointToLocalPointInRectangle(parentCanvas.transform as RectTransform, Input.mousePosition, parentCanvas.worldCamera, out mousePosition);
-        //     wantToMoveUI.anchoredPosition = mousePosition;
-        // }
-        
         // 获取鼠标在屏幕上的位置
         Vector3 mousePosition = Input.mousePosition;
 

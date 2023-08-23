@@ -8,7 +8,7 @@ public class ForFade : MonoBehaviour
     public string toScence;
 
 
-    public int StartMode = 0;//0ÊÇÎÞ 1ÊÇµ­³ö 2ÊÇµ­Èë
+    public int StartMode = 0;//0ï¿½ï¿½ï¿½ï¿½ 1ï¿½Çµï¿½ï¿½ï¿½ 2ï¿½Çµï¿½ï¿½ï¿½
 
     public bool a = false;
 
@@ -28,9 +28,6 @@ public class ForFade : MonoBehaviour
 
             ChangeScence();
         }
-
-
-
     }
 
 
