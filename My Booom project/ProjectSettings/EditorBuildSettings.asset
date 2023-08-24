@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 0fbfee7fe632c424cb585d5c412023c8
+  - enabled: 1
+    path: Assets/Scenes/TestScene 2.unity
+    guid: 519105ce65b438847842693a82f14d50
+  - enabled: 1
+    path: Assets/Scenes/DianDanAPP.unity
+    guid: aa8f4afc19d4d814b9b00ede5ec5e4f8
+  - enabled: 1
+    path: Assets/Scenes/DianCai.unity
+    guid: 1ff5edd23b227934a8819d33eba8c64b
   m_configObjects: {}

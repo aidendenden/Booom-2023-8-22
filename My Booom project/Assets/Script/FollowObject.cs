@@ -66,7 +66,7 @@ public class FollowObject : MonoBehaviour
             if (distance < radius)
             {
                 Debug.Log("aaaa");
-                gameObject.SetActive(false);
+                Destroy(gameObject);
             }
             else
             {
