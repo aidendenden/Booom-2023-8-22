@@ -8,18 +8,15 @@ public class ChatBubble : MonoBehaviour
     [SerializeField] private SpriteRenderer bgSpriteRenderer;
     [SerializeField] private TextMeshPro textMeshPro;
 
-    private string _bubbleText;
+    private string _bubbleText="";
 
     public string bubbleText
     {
         get { return _bubbleText; }
         set
-        {
-            if (_bubbleText != value)
-            {
-                _bubbleText = value;
-                SetText(value);
-            }
+        { 
+            _bubbleText = value; 
+            SetText(value);
         }
     }
     
