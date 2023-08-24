@@ -5,22 +5,11 @@ using UnityEngine;
 
 public class TakeAway : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("inininin");
         Debug.Log(other.transform.tag);
+        
         // if (other.transform.CompareTag("playerHand"))
         // {
         //     transform.SetParent(other.transform);
