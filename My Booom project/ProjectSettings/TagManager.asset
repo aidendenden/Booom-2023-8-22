@@ -8,6 +8,7 @@ TagManager:
   - enHand
   - playerGalss
   - mineA
+  - CaiPoint
   layers:
   - Default
   - TransparentFX
