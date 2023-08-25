@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &125180362
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &201251711
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &453959296
@@ -870,7 +870,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.54, y: -9.36, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -1238,7 +1238,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.83, y: -4.21, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -1893,7 +1893,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.92, y: -2.32, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -2521,7 +2521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &957350338
@@ -2657,7 +2657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &1018873793
@@ -2784,8 +2784,8 @@ Transform:
   m_GameObject: {fileID: 1018873793}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.25, y: -8.23, z: 0}
-  m_LocalScale: {x: 20.95613, y: 6.3305616, z: 1}
+  m_LocalPosition: {x: 1.25, y: -8.3483, z: 0}
+  m_LocalScale: {x: 20.95613, y: 6.0937986, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3147,7 +3147,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.60999966, y: -1.96, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -3630,7 +3630,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.55, y: -5.44, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -3998,7 +3998,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.86, y: -10.36, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -4453,7 +4453,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.16, y: -7.3500004, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 201251712}
@@ -4783,7 +4783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &1587419193
@@ -5084,7 +5084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a418dde6e75d8b44b9fab64b24bf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTrigger: 4
+  timeToTrigger: 3
   functionName: 
   animator: {fileID: 1345073298}
 --- !u!1 &1751777502

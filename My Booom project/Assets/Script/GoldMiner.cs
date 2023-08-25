@@ -11,6 +11,9 @@ public class GoldMiner : MonoBehaviour
     public float hookSpeed = 10f;
     public float hookRetractSpeed = 5f;
 
+    public bool back = false;
+    public bool Have = false;
+
     public LoopMove loopMove;
 
     private GameObject currentHook;
@@ -30,9 +33,12 @@ public class GoldMiner : MonoBehaviour
         {
             if (!isHookMoving && !isHookRetracting)
             {
+
+                back = false;
+                Have = false;
                 LaunchHook();
             }
-            else if (isHookAttached)
+            else if (isHookAttached||back)
             {
                 RetractHook();
             }
