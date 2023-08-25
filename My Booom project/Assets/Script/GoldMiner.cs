@@ -38,7 +38,7 @@ public class GoldMiner : MonoBehaviour
                 Have = false;
                 LaunchHook();
             }
-            else if (isHookAttached||back)
+            else if (isHookAttached)
             {
                 RetractHook();
             }
