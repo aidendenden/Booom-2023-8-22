@@ -278,15 +278,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.67
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.051343404
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -401,7 +401,7 @@ Transform:
   m_GameObject: {fileID: 598560079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.40999997, y: -0.47000003, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -520,7 +520,7 @@ Transform:
   m_GameObject: {fileID: 600504660}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35, y: -0.53, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -648,27 +648,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_LocalPosition.x

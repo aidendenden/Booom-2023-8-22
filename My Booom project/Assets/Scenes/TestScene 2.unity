@@ -1471,7 +1471,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1545,19 +1545,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8414157313526561301, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.67
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.051343404
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2921,7 +2921,7 @@ Transform:
   m_GameObject: {fileID: 1018873793}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.25, y: -8.3483, z: 0}
+  m_LocalPosition: {x: 0.29, y: -8.55, z: 0}
   m_LocalScale: {x: 20.95613, y: 6.0937986, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3511,27 +3511,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4363,7 +4363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAABAIewqp9r5ngIAAKAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VNtu2kAQ/RW0z01lLHKhb60hpJWSoNAqD3UeBnuMV6x3rb0ESMS/d3ZtY4e2EpKXM2cuZ3Zm3xmXpsbMKr3QPL9XObIvI+bP7NOoN97hHjZKrvgbdpxnntvSkyBwnsByRfjYuxlVodU8+yo3wpMjAp3khdLVPN9goow1BBcgDJJJK+u9JUHvI7anz8XUuxzoFF/70xudptHoSMcMpUXdUztiR2tYTmYCqhpzX3JPjjv2OA40SWJaRvT50kdXQnDT1sLsoQ5aE6iNIyVEyDmQtlCAl1oi35TWRx46PxaFQdsWpeEw45pa1ERl31TTtwrMtqnsFYTDUNRNqKoJev+X/WIczIVW1V2Xdxz5HLbk2fYJDhkYO2jsEJ59LNzJHYgtrAU+lygf1EIrJ3MyWu28qzMYz/q/J2lJidm2x5tSz0BX//96vIZjUL9PBK/WofOTBlgJFfodLh813c13KjiMhmlDEOqr+GXwJ2yGM9Qabrk2lkytSunLWyunPZXNQ8+8GmcTpSUGuC26RgnCHpYUxp5f4ZltkPbMcgt+W9rkra1bgjOXAPf8KDozLdWuvyyDP1xVLxWXdoWgs3IQz5Rqd4+mfHRWcIm9Im94oCYmSspm/Mw/3FZOF5AN3CzurdM4AwthCagmmpJ86EoNDR7SCeEHMqjwwX+TCv978U0ugfKKALMHJcP6fPi++EHYOJ5/HHM2zSbXEF9dRdPryWR9BRfTAvJ4fXMzieLLaHw5YWEPuKSeg1g2TWuviiZI9lokzXz3oI0WGuqwebmG3YK/VWpw/VwWapVpRPnYRDiJRU1J6I3I5zknmSu0lsswe+w9ZUJlW8zTU6A0NHa+txrSPkrKav6qrEdSloQXLGUePu3VUuMrx51P3gU7suMfUEsDBBQAAAgIAABAIeww7HrsbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jO00FFQSi9KLMgoBooYgjilmSkgdrSSZbKJeaKRmZmBpbmJSZJZoq5lWmKKUZKFhYmBkamBoamJUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAABAIewqp9r5ngIAAKAFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAABAIeww7HrsbQAAAHgAAAAJACQAAAAAAAAAAAAAAOsCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAowMAAAAA
+    dataString: UEsDBBQAAAgIAABAIez178w3ogIAAKIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VNtu2kAQ/RW0z01kXEhC31pDSCslQaFVHkoeBnuMV6x3rb0ESMS/d3ZtY4e2EpKXM2cuZ3Zm3xmXpsLUKj3XPLtXGbIvA+bP7NOgM97hHjZKLvkbtpxnntnCkyBwnsByRfjQuxlVotU8/So3wpMjAp3kudLlLNtgoow1BOcgDJJJK+u9JUHvA7anz8XEuxzoFF/70xudJtHgSMcUpUXdUVtiS6tZTqYCygozX3JHjlv28PPlOBAlyWk40eXYx1dCcNNUw+yhCmoTqIwjLUTIOJC6UIIXWyDfFNbH7js/5rlB25Sl4TDlmppUR2XfVN25Esy2ru0VhPN5hvFNqKoOev+X/WIYzLlW5V2bdxj5HLbg6fYJDikY22ttH55+LNzJHYgtrAU+Fygf1FwrJzMyWu28qzMYT7u/J2lJgem2w+tSz0BX/f+CvIZjUL9PBC/XofOjGlgKFfodrh813c13KjgMh2lCEOqr+GXwJ2z6U9QYbrk2lkyNSunLWyunPZXNQs+8GmcTpSUGuCm6QgnCHhYUxp5f4Zmtl/bMcgt+X5rkja1dgzOXAHf8KDozLdSuuyyDP1xZLRSXdomg06IXzxRqd4+meHRWcImdIm94oCYmSsp6/Mw/3JZO55D23CzurdM4BQthCagmmpKs70oNDR7SCeEHMqjwwX+TCv978U0ugPKKALMHJcP6fPi++EHYOJ59HHM2SUfXEF9dRZPr0Wh9BReTHLJ4fXMziuJxNByPWNgDLqnnIBZ105qrogmSnRZJM98+aYO5hipsXqZhN+dvpepdP5e5WqYaUT7WEU5iUVMSeiOyWcZJ5hKt5TLMHntfMaHSLWarU6BVaOxsbzWsuigrVvFXZT2yYkl4w1bMw6e9Wmh85bjzydtgR3b8A1BLAwQUAAAICAAAQCHsMOx67G0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IztNBRUEovSizIKAaKGII4pZkpIHa0kmWyiXmikZmZgaW5iUmSWaKuZVpiilGShYWJgZGpgaGpiVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAQCHs9e/MN6ICAACiBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAQCHsMOx67G0AAAB4AAAACQAkAAAAAAAAAAAAAADvAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAKcDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -5348,7 +5348,7 @@ Transform:
   m_GameObject: {fileID: 1751777502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4092, y: 7.55, z: 0}
+  m_LocalPosition: {x: -0.22, y: 7.85, z: 0}
   m_LocalScale: {x: 19.312603, y: 4.9163346, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

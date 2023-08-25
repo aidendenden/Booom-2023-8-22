@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JustForCai : MonoBehaviour
 {
-    public AudioClip audioClip;
+    public AudioSource audioSource;
     public GoldMiner goldMiner;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -18,10 +18,6 @@ public class JustForCai : MonoBehaviour
 
     private void OnDestroy()
     {
-        GameObject lingshiaudio = new GameObject();
-        lingshiaudio.AddComponent<AudioSource>();
-        AudioSource _audioSource = lingshiaudio.GetComponent<AudioSource>();
-        _audioSource.clip = audioClip;
-        _audioSource.PlayOneShot(_audioSource.clip);
+        audioSource.PlayOneShot(audioSource.clip);
     }
 }

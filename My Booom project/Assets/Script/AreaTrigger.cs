@@ -15,7 +15,7 @@ public class AreaTrigger : MonoBehaviour
         {
             // 如果玩家在区域内，则开始计时
             timer += Time.deltaTime;
-            Debug.Log(timer);
+            //Debug.Log(timer);
             if (timer >= timeToTrigger)
             {
                 // 如果计时器达到设定时间，则调用指定的函数

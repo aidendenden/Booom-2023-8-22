@@ -207,6 +207,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -371,6 +375,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -453,6 +461,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 7555379599379558071, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -538,8 +550,8 @@ Camera:
   m_GameObject: {fileID: 465552783}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -679,6 +691,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -844,6 +860,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -1173,27 +1193,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7125211527260700864, guid: 89bc7940f13daa340834aadd7a32529c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1284,6 +1304,134 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.44, y: 2.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1217251875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217251877}
+  - component: {fileID: 1217251876}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1217251876
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217251875}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 086522a0f9161734283c4701f6256631, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1217251877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217251875}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1652,6 +1800,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1745,6 +1897,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -1866,6 +2022,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 7555379599379558071, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     - target: {fileID: 9057036037269487687, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
       propertyPath: m_Mass
       value: 5
@@ -1968,6 +2128,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2119,6 +2283,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -2183,6 +2351,10 @@ PrefabInstance:
     - target: {fileID: 8414157313526561301, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_Name
       value: "\u80CC\u666F\u56FE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8414157313526561301, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9192401811430281639, guid: 520ea508b8205df40a9e116089b079f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2313,6 +2485,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -2529,6 +2705,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -2662,6 +2842,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -2783,6 +2967,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     - target: {fileID: 7785433159863473381, guid: d864e96b50ba0234f9153054d860c035, type: 3}
       propertyPath: target
       value: 
@@ -3019,6 +3207,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -3112,6 +3304,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 7555379599379558071, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     - target: {fileID: 9057036037269487687, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
       propertyPath: m_Mass
       value: 5
@@ -3210,6 +3406,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     - target: {fileID: 7785433159863473381, guid: d864e96b50ba0234f9153054d860c035, type: 3}
       propertyPath: target
       value: 
@@ -3457,6 +3657,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents:
     - {fileID: 6046188646697682094, guid: d864e96b50ba0234f9153054d860c035, type: 3}
     m_RemovedGameObjects: []
@@ -3611,6 +3815,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 7555379599379558071, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     - target: {fileID: 9057036037269487687, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
       propertyPath: m_Mass
       value: 5
@@ -3697,6 +3905,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     - target: {fileID: 7785433159863473381, guid: d864e96b50ba0234f9153054d860c035, type: 3}
       propertyPath: target
       value: 
@@ -3841,6 +4053,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4178,6 +4394,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 7555379599379558071, guid: afbf7c3eb0e43a845af0e0f9b15eabe2, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4255,6 +4475,10 @@ PrefabInstance:
       propertyPath: goldMiner
       value: 
       objectReference: {fileID: 1623602199}
+    - target: {fileID: 6475082900315698413, guid: d864e96b50ba0234f9153054d860c035, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1217251876}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4301,3 +4525,4 @@ SceneRoots:
   - {fileID: 1687213718}
   - {fileID: 126014520}
   - {fileID: 1333502793}
+  - {fileID: 1217251877}
