@@ -9,6 +9,7 @@ TagManager:
   - playerGalss
   - mineA
   - CaiPoint
+  - face
   layers:
   - Default
   - TransparentFX

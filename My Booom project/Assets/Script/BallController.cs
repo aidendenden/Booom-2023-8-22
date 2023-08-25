@@ -45,7 +45,7 @@ public class BallController : MonoBehaviour
 
             // 根据拖拽力度调整反馈对象的位置和缩放
             float distance = Mathf.Min(dragForce.magnitude/20, maxDistance);
-            float scale = Mathf.Min(dragForce.magnitude / maxDistance, maxScale);
+            float scale = Mathf.Min(dragForce.magnitude/5 / maxDistance, maxScale);
             feedbackObject.transform.position = transform.position + dragForce.normalized * distance;
             feedbackObject.transform.localScale = new Vector3(scale, scale, 1f);
         }
