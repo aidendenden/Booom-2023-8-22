@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+#if UNITY_EDITOR
     public float Distance = 25;
 
     public float FieldOfView = 160;
@@ -56,4 +57,5 @@ public class Test : MonoBehaviour
         var sign = (v.y < 0) ? -1.0f : 1.0f;
         return Vector2.Angle(Vector2.right, v) * sign;
     }
+#endif
 }
